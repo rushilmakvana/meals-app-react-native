@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "meals-app",
+    "name": "Recipe Book",
     "slug": "meals-app",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
+    "backgroundColor": "#3f2f25",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,13 +19,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rm.recipebook"
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.rm.recipebook"
     },
     "web": {
       "favicon": "./assets/favicon.png"
